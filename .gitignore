@@ -1,0 +1,12 @@
+*
+
+# Files
+!.gitignore
+!README.md
+
+# Directories
+!Job Camp/
+!Job Camp/**
+
+!Full Stack Development/
+!Full Stack Development/**
