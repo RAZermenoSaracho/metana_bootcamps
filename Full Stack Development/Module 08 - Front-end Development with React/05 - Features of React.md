@@ -1,0 +1,12 @@
+# Features of React
+
+When we say "features of React.js," we mean the special things that React can do. These features show us what React is good at and why developers like using it for making websites.
+
+- **Interactivity:** Ability of a website to respond to user actions, such as clicking on buttons, typing in forms, or hovering over elements. With React, developers can create websites where these interactions happen smoothly without the need for the entire page to reload.
+- **Rendered on Client Side:** Traditional web pages are often generated on the server and then sent to the browser as static HTML files. In contrast, React apps are sent as JavaScript code to the browser, where they are rendered dynamically. Browser takes care of displaying the user interface, resulting in faster loading times and a smoother user experience.
+- **"Heavy Lifting" Handled by Client's Browser:** Tasks like processing data and updating the user interface are performed by the user's browser, rather than the server. While this can lead to faster performance, especially on modern devices, it can also put a strain on older or less powerful devices, potentially causing them to slow down.
+- **Single Page Applications (SPAs):** SPAs are web applications that load a single HTML page and dynamically update the content as the user interacts with the app. React is well-suited for building SPAs because it allows developers to manage the application's state and update the UI without needing to navigate to separate pages.
+- **Dynamic Code:** T ability to write JavaScript code that can change the content or behavior of a web page in response to user actions or other events. With React, developers can embed JavaScript logic directly into the HTML code, allowing for the creation of dynamic user interfaces.
+- **Abstraction of DOM Manipulation:** The Document Object Model (DOM) is a programming interface that represents the structure of a web page as a hierarchical tree of objects. DOM manipulation involves making changes to this tree, such as adding or removing elements, in order to update the content of a web page. React abstracts away much of this low-level DOM manipulation by allowing developers to work with higher-level components that encapsulate both the structure and behavior of UI elements. This simplifies the development process and makes it easier to manage and maintain the codebase.
+
+Check this article : <https://www.geeksforgeeks.org/what-are-the-features-of-reactjs/>
