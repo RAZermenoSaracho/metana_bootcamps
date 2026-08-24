@@ -1,0 +1,5 @@
+# Solidity
+
+These lessons are an excellent resource for understanding how to write and use Solidity. If you only have a little experience writing Solidity code we highly recommend watching them. Following along with the Solidity 0.8 playlist videos using Remix can help consolidate your understanding of working with Solidity. If you already have some experience with Solidity, these lessons can serve as a reference to extend your knowledge of Solidity or refresh your understanding of those features that you may not have used recently.
+
+Warning: the “selfdestruct” function referred to in some of the following videos has been deprecated. Starting from the Cancun hard fork, the underlying opcode no longer deletes the code and data associated with a contract and only transfers its Ether to a beneficiary, unless executed in the same transaction in which the contract was created (see [EIP-6780](https://eips.ethereum.org/EIPS/eip-6780) for more details). Any use in newly deployed contracts is strongly discouraged even if the new behaviour is taken into account. Future changes to the EVM might further reduce the functionality of the opcode
